@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-card">
+        <header>
+            <h1>My Workspace</h1>
+            <p id="date-display"></p>
+        </header>
+
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="What's on your mind?">
+            <select id="itemType">
+                <option value="task">Checklist</option>
+                <option value="note">Note</option>
+            </select>
+            <button id="addBtn">Add</button>
+        </div>
+
+        <div id="listContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
